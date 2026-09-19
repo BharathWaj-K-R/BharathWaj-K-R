@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Development route">
+<style>
+:root{--ink:#111;--muted:#4B5563;--rule:#AAB2BF;--accent:#2563EB}
+@media(prefers-color-scheme:dark){:root{--ink:#F2F2F2;--muted:#999;--rule:#444;--accent:#60A5FA}}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.axis{stroke:var(--rule);stroke-dasharray:1050;stroke-dashoffset:1050;animation:draw 2s ease forwards}
+.mr{opacity:0;animation:rise .6s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}} @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.a1{animation-delay:.2s}.a2{animation-delay:.6s}.a3{animation-delay:1s}.a4{animation-delay:1.4s}.a5{animation-delay:1.8s}
+.dot{animation:ping 2.5s ease-out infinite}
+@keyframes ping{0%{r:4;opacity:.8}70%{r:16;opacity:0}100%{r:16;opacity:0}}
+@media(prefers-reduced-motion:reduce){.axis{animation:none;stroke-dashoffset:0}.mr{animation:none;opacity:1}.dot{animation:none}}
+</style>
+<text class="m" x="48" y="28" font-size="11" letter-spacing="3" fill="var(--muted)">04 — THE ROUTE</text>
+<line class="axis" x1="55" y1="145" x2="1145" y2="145" stroke="var(--rule)"/>
+<g class="mr a1"><circle cx="120" cy="145" r="5" fill="var(--ink)"/><text class="m" x="120" y="112" text-anchor="middle" font-size="13" fill="var(--muted)">FOUNDATION</text><text class="m" x="120" y="176" text-anchor="middle" font-size="14" fill="var(--ink)">Java / OOP</text></g>
+<g class="mr a2"><circle cx="360" cy="145" r="5" fill="var(--ink)"/><text class="m" x="360" y="112" text-anchor="middle" font-size="13" fill="var(--muted)">PROBLEM SOLVING</text><text class="m" x="360" y="176" text-anchor="middle" font-size="14" fill="var(--ink)">DSA / Algorithms</text></g>
+<g class="mr a3"><circle cx="600" cy="145" r="5" fill="var(--ink)"/><text class="m" x="600" y="112" text-anchor="middle" font-size="13" fill="var(--muted)">BACKEND</text><text class="m" x="600" y="176" text-anchor="middle" font-size="14" fill="var(--ink)">SQL / Spring Boot</text></g>
+<g class="mr a4"><circle cx="840" cy="145" r="5" fill="var(--ink)"/><text class="m" x="840" y="112" text-anchor="middle" font-size="13" fill="var(--muted)">DELIVERY</text><text class="m" x="840" y="176" text-anchor="middle" font-size="14" fill="var(--ink)">Linux / Git / Docker</text></g>
+<g class="mr a5"><circle cx="1080" cy="145" r="5" fill="var(--accent)"/><circle class="dot" cx="1080" cy="145" r="4" fill="none" stroke="var(--accent)"/><text class="m" x="1080" y="112" text-anchor="middle" font-size="13" fill="var(--accent)">NEXT</text><text class="m" x="1080" y="176" text-anchor="middle" font-size="14" fill="var(--ink)">Strong backend engineer</text></g>
+</svg>

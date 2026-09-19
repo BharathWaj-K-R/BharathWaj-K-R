@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="38" viewBox="0 0 1200 38" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="0">
+      <stop stop-color="#DBEAFE"/>
+      <stop offset="0.45" stop-color="#2563EB"/>
+      <stop offset="0.7" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+  </defs>
+  <line x1="20" y1="19" x2="1180" y2="19" stroke="#E2E8F0" stroke-width="2"/>
+  <line x1="-100" y1="19" x2="180" y2="19" stroke="url(#g)" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="x1" from="-280" to="1200" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="x2" from="0" to="1480" dur="3.2s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="600" cy="19" r="3" fill="#2563EB">
+    <animate attributeName="r" values="3;5;3" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

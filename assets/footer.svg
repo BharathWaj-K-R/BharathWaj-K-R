@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Currently building">
+<style>
+:root{--ink:#111;--muted:#4B5563;--rule:#AAB2BF;--accent:#2563EB}
+@media(prefers-color-scheme:dark){:root{--ink:#F2F2F2;--muted:#999;--rule:#444;--accent:#60A5FA}}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.p{animation:pulse 2.2s ease-in-out infinite}.r{animation:ring 2.2s ease-out infinite;transform-origin:62px 70px}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}} @keyframes ring{0%{transform:scale(.4);opacity:.8}80%,100%{transform:scale(2.6);opacity:0}}
+</style>
+<line x1="48" y1="24" x2="952" y2="24" stroke="var(--rule)"/>
+<circle class="r" cx="62" cy="70" r="6" fill="none" stroke="var(--accent)"/>
+<circle class="p" cx="62" cy="70" r="4" fill="var(--accent)"/>
+<text class="m" x="84" y="68" font-size="14" letter-spacing="3" fill="var(--ink)">STATUS — BUILDING</text>
+<text class="m" x="84" y="88" font-size="13" letter-spacing="2" fill="var(--muted)">software engineering • backend • delivery</text>
+<text class="m" x="952" y="76" text-anchor="end" font-size="14" fill="var(--muted)">bharath-forgebuilds-tech.onrender.com</text>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><svg viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Development route"><style>
+:root{--bg:#fff;--ink:#111827;--muted:#475569;--rule:#cbd5e1;--panel:#f8fafc;--accent:#2563eb}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.in{opacity:0;animation:in .7s cubic-bezier(.2,.7,.2,1) forwards}.d1{animation-delay:.08s}.d2{animation-delay:.18s}.d3{animation-delay:.28s}.d4{animation-delay:.38s}.d5{animation-delay:.48s}.d6{animation-delay:.58s}
+.line{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 1.4s ease forwards}.pulse{animation:pulse 2s ease-in-out infinite}.flow{stroke-dasharray:6 8;animation:flow 1.7s linear infinite}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes draw{to{stroke-dashoffset:0}}@keyframes flow{to{stroke-dashoffset:-28}}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.in,.line,.flow,.pulse{animation:none}.in{opacity:1}.line{stroke-dashoffset:0}}
+</style>
+<rect width="1000" height="280" rx="8" fill="var(--bg)"/><rect x="18" y="14" width="964" height="252" rx="10" fill="none" stroke="var(--rule)" stroke-width="1.5"/>
+<text class="m in" x="44" y="36" font-size="11" letter-spacing="3" fill="var(--muted)">04 — THE ROUTE</text>
+<line class="line" x1="78" y1="145" x2="922" y2="145" stroke="var(--rule)" stroke-width="2"/>
+<g class="in d1"><circle cx="105" cy="145" r="7" fill="var(--ink)"/><text class="m" x="105" y="108" text-anchor="middle" font-size="11" fill="var(--muted)">FOUNDATION</text><text class="m" x="105" y="178" text-anchor="middle" font-size="14.5" font-weight="700" fill="var(--ink)">Java / OOP</text></g>
+<g class="in d2"><circle cx="310" cy="145" r="7" fill="var(--ink)"/><text class="m" x="310" y="108" text-anchor="middle" font-size="11" fill="var(--muted)">PROBLEM SOLVING</text><text class="m" x="310" y="178" text-anchor="middle" font-size="14.5" font-weight="700" fill="var(--ink)">DSA / Algorithms</text></g>
+<g class="in d3"><circle cx="515" cy="145" r="7" fill="var(--ink)"/><text class="m" x="515" y="108" text-anchor="middle" font-size="11" fill="var(--muted)">BACKEND</text><text class="m" x="515" y="178" text-anchor="middle" font-size="14.5" font-weight="700" fill="var(--ink)">SQL / Spring Boot</text></g>
+<g class="in d4"><circle cx="720" cy="145" r="7" fill="var(--ink)"/><text class="m" x="720" y="108" text-anchor="middle" font-size="11" fill="var(--muted)">DELIVERY</text><text class="m" x="720" y="178" text-anchor="middle" font-size="14.5" font-weight="700" fill="var(--ink)">Linux / Git / Docker</text></g>
+<g class="in d5"><circle cx="895" cy="145" r="8" fill="var(--accent)"/><circle class="pulse" cx="895" cy="145" r="20" fill="none" stroke="var(--accent)" opacity=".32"/><text class="m" x="895" y="108" text-anchor="middle" font-size="11" fill="var(--accent)">NEXT</text><text class="m" x="895" y="178" text-anchor="middle" font-size="14.5" font-weight="700" fill="var(--ink)">Backend + AI</text></g></svg>

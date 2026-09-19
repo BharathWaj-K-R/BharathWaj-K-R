@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Endee RAG Knowledge Assistant">
+<style>
+:root{--bg:#fff;--ink:#111827;--muted:#475569;--rule:#cbd5e1;--panel:#f8fafc;--accent:#2563eb}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.in{opacity:0;animation:in .7s cubic-bezier(.2,.7,.2,1) forwards}.d1{animation-delay:.1s}.d2{animation-delay:.25s}.d3{animation-delay:.4s}
+.sweep{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 1.2s ease .15s forwards}.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes in{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}@keyframes draw{to{stroke-dashoffset:0}}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.in,.sweep,.pulse{animation:none}.in{opacity:1}.sweep{stroke-dashoffset:0}}
+</style>
+<rect width="1000" height="190" rx="8" fill="var(--bg)"/>
+<rect x="18" y="14" width="964" height="162" rx="10" fill="var(--panel)" stroke="var(--rule)" stroke-width="1.5"/>
+<line class="sweep" x1="44" y1="48" x2="956" y2="48" stroke="var(--rule)"/>
+<text class="m in" x="44" y="36" font-size="10.5" letter-spacing="2.6" fill="var(--muted)">04 / RETRIEVAL AUGMENTATION</text>
+<text class="m in d1" x="44" y="84" font-size="23" font-weight="700" fill="var(--ink)">Endee RAG Knowledge Assistant</text>
+<text class="m in d2" x="44" y="113" font-size="13.5" fill="var(--muted)">Retrieval-augmented knowledge assistant with a pluggable vector layer.</text>
+<text class="m in d3" x="44" y="141" font-size="12.5" fill="var(--ink)">FastAPI · Streamlit · LangChain · SentenceTransformers · Endee</text>
+<text class="m in d3" x="956" y="83" text-anchor="end" font-size="11" letter-spacing="1.8" fill="var(--accent)">OPEN REPOSITORY →</text>
+<circle class="pulse" cx="934" cy="133" r="5" fill="var(--accent)"/>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><svg viewBox="0 0 1000 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Selected work section"><style>
+:root{--bg:#0D1117;--ink:#F0F6FC;--muted:#8B949E;--rule:#30363D;--panel:#161B22;--accent:#58A6FF}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.in{opacity:0;animation:in .7s cubic-bezier(.2,.7,.2,1) forwards}.d1{animation-delay:.08s}.d2{animation-delay:.18s}.d3{animation-delay:.28s}.d4{animation-delay:.38s}.d5{animation-delay:.48s}.d6{animation-delay:.58s}
+.line{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 1.4s ease forwards}.pulse{animation:pulse 2s ease-in-out infinite}.flow{stroke-dasharray:6 8;animation:flow 1.7s linear infinite}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes draw{to{stroke-dashoffset:0}}@keyframes flow{to{stroke-dashoffset:-28}}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.in,.line,.flow,.pulse{animation:none}.in{opacity:1}.line{stroke-dashoffset:0}}
+</style>
+<rect width="1000" height="150" rx="8" fill="var(--bg)"/><rect x="18" y="14" width="964" height="122" rx="10" fill="none" stroke="var(--rule)" stroke-width="1.5"/>
+<text class="m in" x="44" y="42" font-size="11" letter-spacing="3" fill="var(--muted)">03 — SELECTED WORK</text>
+<text class="m in d1" x="44" y="82" font-size="24" font-weight="700" fill="var(--ink)">Projects with a clear engineering story.</text>
+<text class="m in d2" x="44" y="108" font-size="13.5" fill="var(--muted)">Each card below is a real repository. Click the card or use the links under it.</text>
+<circle class="pulse" cx="938" cy="78" r="7" fill="var(--accent)"/><circle cx="938" cy="78" r="18" fill="none" stroke="var(--accent)" opacity=".3"/></svg>

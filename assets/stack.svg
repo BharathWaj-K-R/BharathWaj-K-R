@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 290" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technical stack">
+<style>
+:root{--ink:#111;--muted:#4B5563;--rule:#AAB2BF;--accent:#2563EB}
+@media(prefers-color-scheme:dark){:root{--ink:#F2F2F2;--muted:#999;--rule:#444;--accent:#60A5FA}}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.r{opacity:0;animation:rise .55s ease forwards}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.a1{animation-delay:.1s}.a2{animation-delay:.2s}.a3{animation-delay:.3s}.a4{animation-delay:.4s}.a5{animation-delay:.5s}
+@media(prefers-reduced-motion:reduce){.r{animation:none;opacity:1}}
+</style>
+<text class="m" x="48" y="28" font-size="11" letter-spacing="3" fill="var(--muted)">06 — STACK</text>
+<text class="m r a1" x="48" y="70" font-size="14" letter-spacing="2" fill="var(--muted)">LANGUAGES</text>
+<text class="m r a1" x="190" y="70" font-size="17" fill="var(--ink)">Java · C++ · Python</text>
+<text class="m r a2" x="48" y="112" font-size="14" letter-spacing="2" fill="var(--muted)">BACKEND</text>
+<text class="m r a2" x="190" y="112" font-size="17" fill="var(--ink)">Spring Boot · FastAPI · SQL · DBMS</text>
+<text class="m r a3" x="48" y="154" font-size="14" letter-spacing="2" fill="var(--muted)">AI</text>
+<text class="m r a3" x="190" y="154" font-size="17" fill="var(--ink)">Generative AI · RAG · AI-assisted tooling</text>
+<text class="m r a4" x="48" y="196" font-size="14" letter-spacing="2" fill="var(--muted)">DELIVERY</text>
+<text class="m r a4" x="190" y="196" font-size="17" fill="var(--ink)">Linux · Git/GitHub · Docker · Render</text>
+<text class="m r a5" x="48" y="238" font-size="14" letter-spacing="2" fill="var(--muted)">FRONTEND</text>
+<text class="m r a5" x="190" y="238" font-size="17" fill="var(--ink)">HTML · CSS · JavaScript · React</text>
+</svg>

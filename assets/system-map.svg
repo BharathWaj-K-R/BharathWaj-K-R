@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Engineering system map">
+<style>
+:root{--ink:#111;--muted:#4B5563;--rule:#AAB2BF;--panel:#F7F7F7;--accent:#2563EB}
+@media(prefers-color-scheme:dark){:root{--ink:#F2F2F2;--muted:#999;--rule:#444;--panel:#171717;--accent:#60A5FA}}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.node{fill:var(--panel);stroke:var(--rule);stroke-width:1}
+.w{stroke:var(--rule);stroke-width:1;stroke-dasharray:6 8;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-14}}
+.p{opacity:0;animation:pop .65s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes pop{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.p1{animation-delay:.1s}.p2{animation-delay:.25s}.p3{animation-delay:.4s}.p4{animation-delay:.55s}.p5{animation-delay:.7s}.p6{animation-delay:.85s}
+@media(prefers-reduced-motion:reduce){.w{animation:none}.p{animation:none;opacity:1}}
+</style>
+<text class="m" x="48" y="32" font-size="11" letter-spacing="3" fill="var(--muted)">02 — ENGINEERING MAP</text>
+<text class="m" x="952" y="32" text-anchor="end" font-size="11" letter-spacing="3" fill="var(--muted)">FROM FUNDAMENTALS TO DELIVERY</text>
+
+<line class="w" x1="190" y1="170" x2="420" y2="115"/>
+<line class="w" x1="190" y1="170" x2="420" y2="265"/>
+<line class="w" x1="190" y1="170" x2="420" y2="415"/>
+<line class="w" x1="580" y1="115" x2="770" y2="190"/>
+<line class="w" x1="580" y1="265" x2="770" y2="190"/>
+<line class="w" x1="580" y1="415" x2="770" y2="190"/>
+
+<g class="p p1"><rect class="node" x="60" y="125" width="130" height="90" rx="4"/><text class="m" x="78" y="151" font-size="12" fill="var(--muted)">FOUNDATION</text><text class="m" x="78" y="177" font-size="16" fill="var(--ink)">Java / OOP</text><text class="m" x="78" y="197" font-size="13" fill="var(--muted)">Core concepts</text></g>
+
+<g class="p p2"><rect class="node" x="420" y="70" width="160" height="90" rx="4"/><text class="m" x="438" y="96" font-size="12" fill="var(--muted)">PROBLEM SOLVING</text><text class="m" x="438" y="123" font-size="16" fill="var(--ink)">DSA / Algorithms</text><text class="m" x="438" y="143" font-size="13" fill="var(--muted)">Arrays · Hashing · Strings</text></g>
+
+<g class="p p3"><rect class="node" x="420" y="220" width="160" height="90" rx="4"/><text class="m" x="438" y="246" font-size="12" fill="var(--muted)">BACKEND</text><text class="m" x="438" y="273" font-size="16" fill="var(--ink)">SQL / Spring Boot</text><text class="m" x="438" y="293" font-size="13" fill="var(--muted)">APIs · DBMS</text></g>
+
+<g class="p p4"><rect class="node" x="420" y="370" width="160" height="90" rx="4"/><text class="m" x="438" y="396" font-size="12" fill="var(--muted)">DELIVERY</text><text class="m" x="438" y="423" font-size="16" fill="var(--ink)">Linux / Docker</text><text class="m" x="438" y="443" font-size="13" fill="var(--muted)">Git · Deployment</text></g>
+
+<g class="p p5"><rect class="node" x="770" y="145" width="170" height="100" rx="4"/><text class="m" x="790" y="173" font-size="12" fill="var(--muted)">BUILD OUTPUT</text><text class="m" x="790" y="201" font-size="16" fill="var(--ink)">Projects</text><text class="m" x="790" y="222" font-size="13" fill="var(--muted)">Re_Forge · VisionBridge</text></g>
+
+<g class="p p6"><rect x="770" y="300" width="170" height="90" rx="4" fill="none" stroke="var(--accent)"/><text class="m" x="790" y="329" font-size="11" fill="var(--accent)">NEXT LAYER</text><text class="m" x="790" y="356" font-size="16" fill="var(--ink)">Backend + AI</text><text class="m" x="790" y="376" font-size="13" fill="var(--muted)">Practical systems</text></g>
+</svg>

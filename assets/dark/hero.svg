@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><svg viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bharathwaj K R software engineering profile"><style>
+:root{--bg:#0D1117;--ink:#F0F6FC;--muted:#8B949E;--rule:#30363D;--panel:#161B22;--accent:#58A6FF}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.in{opacity:0;animation:in .7s cubic-bezier(.2,.7,.2,1) forwards}.d1{animation-delay:.08s}.d2{animation-delay:.18s}.d3{animation-delay:.28s}.d4{animation-delay:.38s}.d5{animation-delay:.48s}.d6{animation-delay:.58s}
+.line{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 1.4s ease forwards}.pulse{animation:pulse 2s ease-in-out infinite}.flow{stroke-dasharray:6 8;animation:flow 1.7s linear infinite}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes draw{to{stroke-dashoffset:0}}@keyframes flow{to{stroke-dashoffset:-28}}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.in,.line,.flow,.pulse{animation:none}.in{opacity:1}.line{stroke-dashoffset:0}}
+</style>
+<rect width="1000" height="300" rx="8" fill="var(--bg)"/>
+<rect x="18" y="14" width="964" height="272" rx="10" fill="none" stroke="var(--rule)" stroke-width="1.5"/>
+<line class="line" x1="44" y1="50" x2="956" y2="50" stroke="var(--rule)"/>
+<text class="m in" x="44" y="36" font-size="11" letter-spacing="3" fill="var(--muted)">PORTFOLIO / INDEX 001</text>
+<text class="m in d1" x="956" y="36" font-size="11" letter-spacing="2.5" text-anchor="end" fill="var(--muted)">DINDIGUL, TAMIL NADU, INDIA</text>
+<text class="m in d2" x="44" y="112" font-size="50" font-weight="700" letter-spacing="-2" fill="var(--ink)">Bharathwaj K R</text>
+<text class="m in d3" x="46" y="144" font-size="18" fill="var(--muted)">Aspiring Software Engineer · Java · DSA · Backend · DevOps</text>
+<text class="m in d4" x="46" y="172" font-size="14" fill="var(--muted)">Engineering fundamentals, practical systems, and software that ships.</text>
+<g class="in d3">
+<rect x="670" y="78" width="260" height="126" rx="9" fill="var(--panel)" stroke="var(--rule)"/>
+<line x1="670" y1="112" x2="930" y2="112" stroke="var(--rule)"/>
+<circle cx="692" cy="95" r="3" fill="var(--muted)"/><circle cx="704" cy="95" r="3" fill="var(--muted)"/><circle cx="716" cy="95" r="3" fill="var(--muted)"/>
+<text class="m" x="690" y="139" font-size="12" fill="var(--muted)">$ focus --on</text>
+<text class="m" x="690" y="163" font-size="14" fill="var(--ink)">backend systems</text>
+<text class="m" x="690" y="185" font-size="14" fill="var(--ink)">delivery</text>
+<rect class="pulse" x="904" y="174" width="7" height="14" fill="var(--accent)"/>
+</g>
+<line class="line d5" x1="44" y1="244" x2="956" y2="244" stroke="var(--rule)"/>
+<text class="m in d6" x="44" y="269" font-size="11" letter-spacing="2" fill="var(--muted)">JAVA · DSA · SQL · SPRING BOOT · LINUX · GIT · DOCKER</text></svg>

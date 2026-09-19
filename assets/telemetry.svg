@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Current engineering focus">
+<style>
+:root{--ink:#111;--muted:#4B5563;--rule:#AAB2BF;--accent:#2563EB}
+@media(prefers-color-scheme:dark){:root{--ink:#F2F2F2;--muted:#999;--rule:#444;--accent:#60A5FA}}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.b{transform:scaleX(0);transform-origin:left;animation:grow .8s cubic-bezier(.2,.7,.2,1) forwards}
+.g2{animation-delay:.15s}.g3{animation-delay:.3s}.g4{animation-delay:.45s}
+@keyframes grow{to{transform:scaleX(1)}} .s{stroke-dasharray:600;stroke-dashoffset:600;animation:draw 1.7s ease .3s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){.b{animation:none;transform:scaleX(1)}.s{animation:none;stroke-dashoffset:0}}
+</style>
+<text class="m" x="48" y="28" font-size="11" letter-spacing="3" fill="var(--muted)">05 — TELEMETRY</text>
+<text class="m" x="952" y="28" text-anchor="end" font-size="11" letter-spacing="3" fill="var(--muted)">CURRENT ENGINEERING FOCUS</text>
+
+<g transform="translate(48 68)">
+<text class="m" x="0" y="0" font-size="13" fill="var(--muted)">BUILD STREAMS</text>
+<line x1="0" y1="18" x2="430" y2="18" stroke="var(--rule)"/>
+
+<text class="m" x="0" y="55" font-size="13" fill="var(--ink)">Java / DSA</text>
+<rect x="120" y="45" width="290" height="9" fill="var(--rule)" opacity=".3"/>
+<rect class="b" x="120" y="45" width="245" height="9" fill="var(--ink)"/>
+
+<text class="m" x="0" y="92" font-size="13" fill="var(--ink)">Backend</text>
+<rect x="120" y="82" width="290" height="9" fill="var(--rule)" opacity=".3"/>
+<rect class="b g2" x="120" y="82" width="220" height="9" fill="var(--ink)"/>
+
+<text class="m" x="0" y="129" font-size="13" fill="var(--ink)">AI Systems</text>
+<rect x="120" y="119" width="290" height="9" fill="var(--rule)" opacity=".3"/>
+<rect class="b g3" x="120" y="119" width="205" height="9" fill="var(--ink)"/>
+
+<text class="m" x="0" y="166" font-size="13" fill="var(--ink)">Delivery</text>
+<rect x="120" y="156" width="290" height="9" fill="var(--rule)" opacity=".3"/>
+<rect class="b g4" x="120" y="156" width="185" height="9" fill="var(--ink)"/>
+
+<text class="m" x="0" y="205" font-size="13" fill="var(--muted)">The bars show focus areas, not skill ratings.</text>
+</g>
+
+<g transform="translate(548 68)">
+<text class="m" x="0" y="0" font-size="13" fill="var(--muted)">ENGINEERING LOOP</text>
+<line x1="0" y1="18" x2="404" y2="18" stroke="var(--rule)"/>
+<text class="m" x="0" y="58" font-size="14" fill="var(--ink)">learn → build → test → debug → improve → ship</text>
+<path class="s" d="M0 152 C55 140 78 112 125 126 C176 141 190 78 245 94 C300 110 316 56 390 38" stroke="var(--accent)" stroke-width="2"/>
+<circle cx="390" cy="38" r="5" fill="var(--accent)"/>
+<text class="m" x="0" y="196" font-size="14" fill="var(--muted)">direction: stronger backend systems and production delivery</text>
+</g>
+</svg>

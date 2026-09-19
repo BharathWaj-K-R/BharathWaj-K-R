@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><svg viewBox="0 0 1000 290" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="About Bharathwaj K R"><style>
+:root{--bg:#0D1117;--ink:#F0F6FC;--muted:#8B949E;--rule:#30363D;--panel:#161B22;--accent:#58A6FF}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.in{opacity:0;animation:in .7s cubic-bezier(.2,.7,.2,1) forwards}.d1{animation-delay:.08s}.d2{animation-delay:.18s}.d3{animation-delay:.28s}.d4{animation-delay:.38s}.d5{animation-delay:.48s}.d6{animation-delay:.58s}
+.line{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 1.4s ease forwards}.pulse{animation:pulse 2s ease-in-out infinite}.flow{stroke-dasharray:6 8;animation:flow 1.7s linear infinite}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes draw{to{stroke-dashoffset:0}}@keyframes flow{to{stroke-dashoffset:-28}}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.in,.line,.flow,.pulse{animation:none}.in{opacity:1}.line{stroke-dashoffset:0}}
+</style>
+<rect width="1000" height="290" rx="8" fill="var(--bg)"/><rect x="18" y="14" width="964" height="262" rx="10" fill="none" stroke="var(--rule)" stroke-width="1.5"/>
+<text class="m in" x="44" y="36" font-size="11" letter-spacing="3" fill="var(--muted)">01 — WHOAMI</text>
+<text class="m in d1" x="956" y="36" text-anchor="end" font-size="10.5" letter-spacing="2.1" fill="var(--muted)">ENGINEERING PROFILE</text>
+<rect class="in d2" x="44" y="66" width="548" height="172" rx="9" fill="var(--panel)" stroke="var(--rule)"/>
+<text class="m in d2" x="68" y="100" font-size="20" font-weight="700" fill="var(--ink)">Engineering student building</text>
+<text class="m in d3" x="68" y="128" font-size="20" font-weight="700" fill="var(--ink)">toward software engineering roles.</text>
+<line x1="68" y1="148" x2="568" y2="148" stroke="var(--rule)"/>
+<text class="m in d4" x="68" y="176" font-size="14" fill="var(--muted)">Strong fundamentals, problem solving,</text>
+<text class="m in d4" x="68" y="198" font-size="14" fill="var(--muted)">backend systems, and production delivery.</text>
+<text class="m in d5" x="68" y="224" font-size="12.5" fill="var(--accent)">Understand → Implement → Test → Debug → Ship</text>
+<g class="in d3"><rect x="616" y="66" width="340" height="80" rx="9" fill="var(--panel)" stroke="var(--rule)"/>
+<text class="m" x="640" y="94" font-size="10.5" letter-spacing="2.4" fill="var(--muted)">CORE FOCUS</text>
+<text class="m" x="640" y="122" font-size="15" fill="var(--ink)">Java · DSA · SQL / DBMS</text></g>
+<g class="in d4"><rect x="616" y="158" width="340" height="80" rx="9" fill="var(--panel)" stroke="var(--rule)"/>
+<text class="m" x="640" y="186" font-size="10.5" letter-spacing="2.4" fill="var(--muted)">CURRENT BUILD</text>
+<text class="m" x="640" y="214" font-size="15" fill="var(--ink)">Spring Boot · Linux · Docker</text></g></svg>
